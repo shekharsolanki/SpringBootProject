@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="582.9333333333333" y="902.0">com.ansu.SpringBootProject2.service.DepartmentServiceImpl</node>
+    <node x="843.8916666666667" y="614.0">com.ansu.SpringBootProject2.error.DepartmentNotFoundException</node>
+    <node x="480.89166666666665" y="658.0">com.ansu.SpringBootProject2.repository.DepartmentRepository</node>
+    <node x="141.89166666666665" y="603.0">com.ansu.SpringBootProject2.service.DepartmentService</node>
+    <node x="0.0" y="902.0">com.ansu.SpringBootProject2.controller.DepartmentController</node>
+    <node x="1020.1833333333333" y="989.0">com.ansu.SpringBootProject2.error.RestResponseEntityExceptionHandler</node>
+    <node x="1317.2916666666665" y="517.0">com.ansu.SpringBootProject2.entity.ErrorMessage</node>
+    <node x="353.8125" y="0.0">com.ansu.SpringBootProject2.entity.Department</node>
+    <node x="0.0" y="1174.0">com.ansu.SpringBootProject2.SpringBootProject2Application</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.ansu.SpringBootProject2.service.DepartmentServiceImpl" target="com.ansu.SpringBootProject2.error.DepartmentNotFoundException">
+      <point x="119.625" y="-113.5" />
+      <point x="862.0583333333333" y="877.0" />
+      <point x="948.6416666666667" y="877.0" />
+      <point x="-104.75" y="70.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.repository.DepartmentRepository" target="com.ansu.SpringBootProject2.entity.Department">
+      <point x="0.0" y="-26.5" />
+      <point x="651.8916666666667" y="497.0" />
+      <point x="516.9375" y="497.0" />
+      <point x="32.625" y="233.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.service.DepartmentServiceImpl" target="com.ansu.SpringBootProject2.repository.DepartmentRepository">
+      <point x="-39.875" y="-113.5" />
+      <point x="702.5583333333333" y="877.0" />
+      <point x="651.8916666666667" y="877.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.controller.DepartmentController" target="com.ansu.SpringBootProject2.service.DepartmentService">
+      <point x="79.75" y="-113.5" />
+      <point x="239.25" y="877.0" />
+      <point x="221.64166666666665" y="877.0" />
+      <point x="-79.75" y="81.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.service.DepartmentServiceImpl" target="com.ansu.SpringBootProject2.entity.Department">
+      <point x="39.875" y="-113.5" />
+      <point x="782.3083333333333" y="877.0" />
+      <point x="833.3916666666667" y="877.0" />
+      <point x="833.3916666666667" y="487.0" />
+      <point x="582.1875" y="487.0" />
+      <point x="97.875" y="233.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.service.DepartmentService" target="com.ansu.SpringBootProject2.entity.Department">
+      <point x="0.0" y="-81.5" />
+      <point x="301.39166666666665" y="497.0" />
+      <point x="451.6875" y="497.0" />
+      <point x="-32.625" y="233.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.controller.DepartmentController" target="com.ansu.SpringBootProject2.entity.Department">
+      <point x="-79.75" y="-113.5" />
+      <point x="79.75" y="877.0" />
+      <point x="114.375" y="877.0" />
+      <point x="114.375" y="487.0" />
+      <point x="386.4375" y="487.0" />
+      <point x="-97.875" y="233.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.service.DepartmentServiceImpl" target="com.ansu.SpringBootProject2.service.DepartmentService">
+      <point x="-119.625" y="-113.5" />
+      <point x="622.8083333333333" y="877.0" />
+      <point x="381.14166666666665" y="877.0" />
+      <point x="79.75" y="81.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.error.RestResponseEntityExceptionHandler" target="com.ansu.SpringBootProject2.error.DepartmentNotFoundException">
+      <point x="-212.33333333333337" y="-26.5" />
+      <point x="1126.35" y="877.0" />
+      <point x="1158.1416666666667" y="877.0" />
+      <point x="104.75" y="70.5" />
+    </edge>
+    <edge source="com.ansu.SpringBootProject2.error.RestResponseEntityExceptionHandler" target="com.ansu.SpringBootProject2.entity.ErrorMessage">
+      <point x="0.0" y="-26.5" />
+      <point x="1338.6833333333334" y="877.0" />
+      <point x="1373.2916666666665" y="877.0" />
+      <point x="-56.0" y="167.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="505.5" y="267.0" />
+  <SelectedNodes>
+    <node>com.ansu.SpringBootProject2.entity.Department</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
